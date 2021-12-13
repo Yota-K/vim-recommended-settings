@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  vim_recommended_settings:
+    container_name: vim_recommended_settings
+    tty: true
+    build: .
+    volumes:
+      - ./app:/app
