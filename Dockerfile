@@ -9,6 +9,5 @@ RUN locale-gen ja-JP.UTF-8
 RUN localedef -f UTF-8 -i ja_JP ja_JP
 
 RUN mkdir /root/.vim
-COPY .vimrc /root/.vimrc
 
-WORKDIR /app
+WORKDIR /root

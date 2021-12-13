@@ -6,4 +6,4 @@ services:
     tty: true
     build: .
     volumes:
-      - ./app:/app
+      - ./root:/root
