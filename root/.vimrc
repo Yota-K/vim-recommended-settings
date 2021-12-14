@@ -66,10 +66,6 @@ set virtualedit=onemore
 " スワップファイルを作成しないようにする
 set noswapfile
 
-" ヤンクしたテキストをクリップボードにもコピーできるようにする
-set clipboard+=unnamed
-set clipboard+=unnamed,autoselect
-
 " コマンドの補完
 set wildmenu
 set history=5000
@@ -84,6 +80,7 @@ set nowrap
 "----------------------------------------
 " キーマッピング系
 "----------------------------------------
+
 " インサートモード時のキーマッピング
 " ()と{}と[]と引用符の補完
 inoremap (<Enter> ()<Left>
@@ -115,3 +112,10 @@ let g:netrw_altv=1
 let g:netrw_alto=1
 let g:netrw_preview=1
 let g:netrw_winsize=30
+
+"----------------------------------------
+" テーマ
+"----------------------------------------
+
+" シンタックスハイライトを有効に
+syntax enable
